@@ -1,3 +1,7 @@
-number = int(input("Введите число - "))
-number_2 = number * 2
-print("Ответ " + str(number_2))
+
+number_1 = int(input("Введите первое число - "))
+number_2 = int(input("Введите первое число - "))
+number_3 = int(input("Введите первое число - "))
+
+number_sum = int(number_1 + number_2 + number_3)
+print("Среднее арифметическое " + str(int(number_sum / 3)))
