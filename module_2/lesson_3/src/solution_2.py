@@ -1,8 +1,8 @@
-worker_1 = 'Маша'
-worker_2 = 'Света'
-worker_3= 'Паша'
-worker_4 = 'Олег'
+workers = ["Света", "Маша", "Олег", "Паша"]
 
-print("В четные дни работают: ", worker_2, worker_4, "\n"
+even_days = workers[::2]
+odd_days = workers[1::2]
+
+print("В чётные дни работает: ", *even_days,"\n"
       "\n"
-      "В нечетные дни работают: ", worker_1, worker_3)
+      "В нечётные дни: ", *odd_days)
