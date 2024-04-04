@@ -1,0 +1,1 @@
+print(input("Введите текст- ").replace("Design", "Art", 2))

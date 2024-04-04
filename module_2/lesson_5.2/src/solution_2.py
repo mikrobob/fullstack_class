@@ -1,0 +1,1 @@
+print(input("Введите текст- ").find('Creative'))
